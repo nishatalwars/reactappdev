@@ -2,32 +2,39 @@ import React from "react";
 export default function HeroSection() {
   return (
     <section className="HeroSection section">
-      <div className="HeroSection-bg-video">
-      </div>
+      <div className="HeroSection-bg-video"></div>
       <div className="HeroSection-outer outer-section">
         <div className="container">
           <div className="HeroSection-inner inner-section">
-            <div className="animated-logo align-center">
-            </div>
-            <div className="HeroSection-content">
+            <div className="HeroSection-content-left">
               <div className="HeroSection-title align-center">
+<div className="btn food-btn">
+testy food forever
+</div>
                 <h1>
-                  The Future of <span className="text-orange">Music.</span>
-                  <br /> Owned by You.
-                </h1>
-              </div>
-              <div className="HeroSection-subtitle align-center">
-                <h5>Artists Keep. Fans Own. Community Run.</h5>
-              </div>
-            
-                <div className="btn talk-us-btn">
                  
+                  We’re <span className="text-orange">serious</span>for
+                  <span className="text-orange">food</span> & delivery.
+                </h1>
+                <div className="HeroSection-subtitle align-center">
+                  <p>
+                    our job is to filling you yummy with delicious food and with
+                    fast and free delivery.
+                  </p>
+                </div>
+                <div className="btn order-btn">
+                  <button>order now</button>
+                </div>
+                <div className="btn menu-btn">
+                  <button>see menu</button>
                 </div>
               </div>
             </div>
+
+            <div className="HeroSection-content-right"></div>
           </div>
         </div>
-     
+      </div>
     </section>
   );
 }
