@@ -4,7 +4,7 @@ function App() {
     <div className="App">
       <header className="App-header">
     
-<p>Hello Reactjs junior Developer this sides.</p>
+<p>Hello Reactjs junior Developer this side for develop sites.</p>
       </header>
     </div>
   );
