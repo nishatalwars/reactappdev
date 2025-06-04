@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../images/hero-image.png";
 export default function HeroSection() {
   return (
     <section className="HeroSection section">
@@ -9,7 +10,7 @@ export default function HeroSection() {
             <div className="HeroSection-content-left">
               <div className="HeroSection-title align-center">
 <div className="btn food-btn">
-testy food forever
+Testy food forever
 </div>
                 <h1>
                  
@@ -31,7 +32,10 @@ testy food forever
               </div>
             </div>
 
-            <div className="HeroSection-content-right"></div>
+            <div className="HeroSection-content-right">
+                <img src={image} alt="Banner section image" />
+
+            </div>
           </div>
         </div>
       </div>
