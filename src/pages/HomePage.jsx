@@ -1,11 +1,11 @@
 import React from "react";
 
-import HeroSetion from "../sections/Hero-Section";
+import HeroSection from '../sections/HeroSection';
 
-export default function LandingPage() {
+export default function HomePage() {
   return (
     <div className="home-page page">
-        <HeroSetion/>   
+    <HeroSection/>
      
     </div>
   );

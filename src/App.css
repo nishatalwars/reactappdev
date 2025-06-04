@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+
+
+/* -------------- css start ----------- */
+
+.HeroSection-title.align-center h1 {
+    font-size: 40px;
+}
+
+
+
+
+
+/* -------------- css end ----------- */
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

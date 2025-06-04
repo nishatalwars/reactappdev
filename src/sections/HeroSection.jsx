@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
+export default function HeroSection() {
   return (
     <section className="HeroSection section">
-    
+      <div className="HeroSection-bg-video">
+      </div>
       <div className="HeroSection-outer outer-section">
         <div className="container">
           <div className="HeroSection-inner inner-section">
             <div className="animated-logo align-center">
-              <img src={logo} alt="Finay Logo" />
             </div>
-
             <div className="HeroSection-content">
               <div className="HeroSection-title align-center">
                 <h1>
@@ -19,10 +19,15 @@ import React, { useState } from "react";
               <div className="HeroSection-subtitle align-center">
                 <h5>Artists Keep. Fans Own. Community Run.</h5>
               </div>
+            
+                <div className="btn talk-us-btn">
+                 
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+     
     </section>
   );
-
+}
